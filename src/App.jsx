@@ -22,7 +22,7 @@ function App() {
         <Link to='/'>
           <li>Home</li>
         </Link>
-          { !isLogin
+          { isLogin
             ?
         <Link to='login'>
             <li>Login</li>
